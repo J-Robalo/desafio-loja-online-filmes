@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1d2226;
+}
+
+/* Cabeçalho */
+
+.cabecalho {
+  background-color: #0f1c26;
+  height: 104px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.cabecalho input {
+  all: unset;
+  padding-left: 20px;
+  background-color: #171b1e;
+  min-height: 40px;
+  min-width: 456px;
+  align-self: center;
+  font-family: "Manrope";
+  font-size: 16px;
+}
+.cabecalho a,
+.usuario {
+  color: #fdfdfd;
+  display: flex;
+  align-items: center;
+  font-family: "Manrope";
+}
+.cabecalho a img {
+  margin: 12px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
