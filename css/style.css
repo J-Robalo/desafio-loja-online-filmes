@@ -31,9 +31,9 @@ body {
 }
 .cabecalho a,
 .usuario {
-  color: #fdfdfd;
   display: flex;
   align-items: center;
+  color: #fdfdfd;
   font-family: "Manrope";
 }
 .cabecalho a img {
