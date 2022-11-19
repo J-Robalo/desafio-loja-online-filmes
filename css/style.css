@@ -44,3 +44,51 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+/* Catálogo de Filmes */
+
+.titulo-secoes {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 16px;
+  margin-top: 49px;
+  color: #fdfdfd;
+}
+
+.top-filmes button,
+.filmes button {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  font-family: "Manrope";
+  font-size: 12px;
+  font-weight: bold;
+  z-index: 10;
+  background-color: #a785ed;
+  color: #eee5ff;
+  min-width: 152px;
+  left: 4.76px;
+  bottom: 15px;
+  border: 0 none;
+}
+
+.top-filmes img,
+.filmes img {
+  max-width: 100%;
+  margin-top: 23px;
+}
+
+.top-filmes li,
+.filmes li {
+  display: inline-block;
+  position: relative;
+  max-width: 164px;
+  max-height: 301px;
+  margin-right: 24px;
+}
+.top-filmes li:nth-child(5),
+.filmes li:nth-child(5n) {
+  margin-right: 0;
+}
