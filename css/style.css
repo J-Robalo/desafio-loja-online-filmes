@@ -92,3 +92,22 @@ body {
 .filmes li:nth-child(5n) {
   margin-right: 0;
 }
+
+/* Gêneros Cinematográficos */
+
+.buttons-category a {
+  border: 2px solid #4a4e51;
+  width: 164px;
+  font-size: 16px;
+  margin-right: 24px;
+  color: #4a4e51;
+  font-family: "Open Sans";
+  text-align: center;
+  display: inline-block;
+}
+
+.buttons-category a:hover {
+  background: rgba(225, 131, 200, 0.2);
+  color: #e183c8;
+  border: 2px solid #e183c8;
+}
