@@ -47,6 +47,43 @@ body {
 
 /* Anúncio de Cupom */
 
+.anuncio {
+  font-family: "Quantico";
+  display: flex;
+  background: #e183c8;
+  position: relative;
+  height: 120px;
+  width: 800px;
+}
+
+.money {
+  position: absolute;
+  right: 0;
+  bottom: -15px;
+}
+
+.alinhar {
+  margin: 24px;
+  align-self: center;
+}
+.alinhar-2 {
+  position: absolute;
+  align-self: center;
+  left: 500px;
+  font-size: 24px;
+}
+.alinhar-2 p {
+  margin-top: 20px;
+}
+.cupom {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+.aproveite {
+  font-size: 40px;
+}
+
 /* Catálogo de Filmes */
 
 .titulo-secoes {
@@ -113,3 +150,5 @@ body {
   color: #e183c8;
   border: 2px solid #e183c8;
 }
+
+/* Sacola */
