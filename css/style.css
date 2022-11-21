@@ -66,20 +66,28 @@ body {
   margin: 24px;
   align-self: center;
 }
+
 .alinhar-2 {
   position: absolute;
   align-self: center;
   left: 500px;
   font-size: 24px;
 }
+
 .alinhar-2 p {
   margin-top: 20px;
 }
+
 .cupom {
   font-size: 16px;
   display: flex;
   align-items: center;
 }
+
+.tempo-cupom {
+  font-size: 16px;
+}
+
 .aproveite {
   font-size: 40px;
 }
